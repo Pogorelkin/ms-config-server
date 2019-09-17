@@ -7,5 +7,5 @@ log4j:
   rootLogger: logstash
   appender: 
       -'org.apache.log4j.net.SocketAppender'
-      port: 5000
+      port: '5000'
       remoteHost: localhost
