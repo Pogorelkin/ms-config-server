@@ -2,3 +2,11 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8282/eureka
+
+log4j.rootLogger=logstash
+log4j:
+  rootLogger: logstash
+  appender: 
+      -'org.apache.log4j.net.SocketAppender'
+      port: 5000
+      remoteHost: localhost
