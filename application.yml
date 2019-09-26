@@ -4,7 +4,7 @@ eureka:
       defaultZone: http://localhost:8282/eureka
 
 kafka:
-  server: "localhost:9092"
+  server: "127.0.0.1:9092"
   producer:
     id: "1"
   group:
