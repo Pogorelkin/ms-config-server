@@ -2,3 +2,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8282/eureka
+
+kafka:
+  server: "localhost:9092"
+  group:
+    id: "server.broadcast"
+
