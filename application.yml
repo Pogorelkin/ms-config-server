@@ -5,6 +5,8 @@ eureka:
 
 kafka:
   server: "localhost:9092"
+  producer:
+    id: "1"
   group:
     id: "server.broadcast"
 
