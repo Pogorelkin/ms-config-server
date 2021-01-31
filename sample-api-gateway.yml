@@ -11,5 +11,5 @@ endpoints:
 
 zuul:
   routes:
-    workspaces-api: /workspaces-service/**      
-    employees-api: /employees-service/**      
+    say-hello-api: /say-hello/**
+    give-hello-api: /give-hello/**  
